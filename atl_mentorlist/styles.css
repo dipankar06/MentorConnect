@@ -1,0 +1,56 @@
+.block_globalsearch .searchform {
+    text-align: center;
+}
+
+.block_globalsearch .footer {
+    text-align: center;
+}
+
+.tabcontentatal{
+    margin-top:10px;
+}
+
+.block-mentorlist{
+    margin-top:1px;
+}
+
+.mentorrow{
+  margin-bottom: 10px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.mentorrow .left {
+    float: left;
+    overflow: hidden;
+    width: 20%;
+}
+
+.mentorrow .topic{
+    float: left;
+    width: 80%;   
+}
+
+.picture{
+    height:35px;
+    width:35px;
+}
+
+.recomendproj{
+	border-color: #d7dfe3;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+	margin-bottom:8%;
+}
+.sugprojecttitle{
+	background-color:#e9f7fa;
+	border-radius: 4px;
+}
+.watsonlist{
+	width:100%;
+}

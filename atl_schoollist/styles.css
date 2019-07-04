@@ -1,0 +1,13 @@
+.block-atlschool{
+    margin-top:1px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.block-atlschool .schoolrow{
+    width:100%;
+}

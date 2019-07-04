@@ -1,0 +1,25 @@
+.block-atalevent{
+    margin-top:1px;
+}
+.card{
+  height:10%;
+}
+.clearfix{
+  clear: both;
+}
+.eventblockleft{
+  float:left;
+}
+
+.block-atalevent .smallblockright {
+    float: right;
+    font-size: 62%;
+    min-height: 120px;
+    width: 50%;
+}
+.block-atalevent .title {
+    font-size: 1.100rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}

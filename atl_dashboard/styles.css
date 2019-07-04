@@ -1,0 +1,192 @@
+.block-atldashboard{
+    margin-top:1px;
+    position:relative;
+}
+.block-atldashboard .searchform {
+    text-align: center;
+}
+
+.block-atldashboard .footer {
+    text-align: center;
+}
+
+.tabcontentatal {
+    margin-top:10px;
+}
+.block-atldashboard .atlclearfix {
+  clear:both;
+}
+
+.block-atldashboard .atlleft {
+  float:left;
+}
+
+.block-atldashboard .atlright {
+  float:right;
+}
+
+.block-atldashboard .atlright a{
+	background-image:url([[pix:theme|delete]]);
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.block-atldashboard .atlmisuse{
+		float:right;
+}
+.block-atldashboard .atlmisuse a{
+	background-image:url([[pix:theme|flag]]);
+	display: block;
+	height: 30px;
+	margin-right: 15px;
+	margin-top: -2px;
+	width: 30px;
+}
+.block-atldashboard .atlmisusered{
+	float:right;
+}
+.block-atldashboard .atlmisusered a{
+	background-image:url([[pix:theme|redflag]]);
+	display: block;
+	height: 30px;
+	margin-right: 15px;
+	margin-top: -2px;
+	width: 25px;
+}
+	
+#block-atldashboard .nav-tabs {
+    border-bottom: 1px solid #ddd;
+    width: 75%;
+}
+
+#block-atldashboard .createmenu {
+    border-bottom: 6px none;
+    clear: both;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    z-index: 10;
+}
+
+#createmenus ul.subs {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    color: #333;
+    width: 100%;
+    display:none;
+}
+
+#createmenus ul.subs > li {
+    padding: 6px 1%;
+}
+
+#createmenus ul {
+    list-style: outside none none;
+}
+
+#createmenus a {
+    text-decoration:none;
+    color: #262626;
+    display: block;
+    line-height: 20px;
+    padding: 0 15px;
+}
+
+#createmenus a:hover {
+    color: green;
+}
+
+#createmenus:hover > ul.subs {
+    display:block;
+}
+
+.block-atldashboard .csstest1{
+	color:blue;
+}
+
+.block-atldashboard .myreply{
+	float: left;
+	margin-left: 5%;
+	margin-top: 2%;
+	width: 90%;	
+}
+.block-atldashboard .myreplybox{
+	background-clip: padding-box;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 0.25rem;
+	color: #55595c;
+	display: block;
+	font-size: 0.9rem;
+	line-height: 1.1;		
+	padding: 0.5rem;
+	width: 97%;
+}
+.block-atldashboard .myreplya{
+	float: left;
+	width: 90%;
+}
+.block-atldashboard .myreplyb{
+	float: left;
+	width: 10%;	
+}
+.myreplyb a {
+	text-decoration: none;
+}
+
+#projectview .projimage{
+	float:left;
+	
+}
+#projectview .projdetail{
+	float:left;
+	width:70%;
+	margin-left:2%;
+	
+}
+#projectview .projdetail ul{
+	list-style: none;
+	
+}
+#projectview .projdetail ul li{
+	margin-bottom:2%;
+	
+}
+#projectview .projdetail ul li a{
+	text-decoration: none;
+	
+}
+.userprofile{
+	float:left;
+	margin-top:4px;
+}
+.pclear{ clear:both; }
+.pics{
+	margin-left:2%;
+}
+.mentorpics{
+	margin-left:4%;
+}
+.moreleft{
+	margin-left:15%;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+	.block-atldashboard .csstest1{
+		color:red !important;
+	}
+	.iepos{
+		position:relative !important;
+	}
+	.modal{
+		position:absolute !important;
+	}
+	.modal-dialog{
+		position:relative !important;
+	}
+}
